@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PH Tube</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      sizes="32x32"
+      href="Assets/image/Icon.png"
+    />
     <!-- css sheet -->
     <link rel="stylesheet" href="Assets/css/styles.css" />
 
@@ -21,15 +27,19 @@
     ------------------------------------------------------------------------>
     <header class="header w-11/12 mx-auto">
       <!----------------------
-      nav-bar section
-    ----------------------->
+          nav-bar section
+      ----------------------->
       <nav
         class="navbar flex justify-between items-center py-3 border-b-2 border-b-[#17171733] border-opacity-20"
       >
         <div class="logo w-[150px]">
           <!-- logo -->
           <a href="index.html" class="logoLink">
-            <img src="Assets/Logo.png" alt="PH-Tube-LOGO" class="w-full" />
+            <img
+              src="Assets/image/Logo.png"
+              alt="PH-Tube-LOGO"
+              class="w-full"
+            />
           </a>
         </div>
         <div class="searchBar">
@@ -77,11 +87,25 @@
         </div>
         <!-- sortBTN -->
       </nav>
+
+      <!----------------------
+          category section
+      ----------------------->
+      <div id="categoriesContainer">
+        <div
+          id="categories"
+          class="categories flex justify-center items-center gap-4 py-3 border-b-2 border-b-[#17171733] border-opacity-20 w-full overflow-x-auto whitespace-nowrap scroll-smooth no-scrollbar"
+        >
+          <!-- injection of categories name come hare -->
+        </div>
+      </div>
     </header>
     <!----------------------------------------------------------------------
      main section
     ------------------------------------------------------------------------>
-    <main></main>
+    <main>
+      <div class="cardContiner"></div>
+    </main>
     <!----------------------------------------------------------------------
      footer section
     ------------------------------------------------------------------------>
